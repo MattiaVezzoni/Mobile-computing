@@ -1,9 +1,12 @@
 package Homeworw_class
 
 fun main() {
-    val iOS: Boolean = "I have an iOS device."
-    val android: Boolean = "I have an Android device."
-
-    println(iOS)
-    println(android)
+    val iOSdevice: Boolean = true
+    val android: Boolean = false
+    var printcode = if(val = true){
+        println("I have an iOS device.")
+    }
+    else {
+        println("I have an Android device.")
+    }
 }
