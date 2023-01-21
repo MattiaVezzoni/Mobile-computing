@@ -9,6 +9,7 @@ class Hobbies {
 }
 
 fun main(){
+    arrayOf(Hobbies: 5)
     println(Hobbies)
 }
 
