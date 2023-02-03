@@ -1,15 +1,12 @@
 package Homeworw_class
 
-class Hobbies {
-    var hob1 = "Soccer"
-    var hob2 = "Padel"
-    var hob3 = "Music"
-    var hob4 = "Netflix"
-    var hob5 = "Twitch"
-}
-
-fun main(){
-    arrayOf(Hobbies: 5)
-    println(Hobbies)
+fun main(args: Array<String>) {  
+val myArray = arrayOf<String>("Soccer","Padel","Music","Netflix","Twitch")    
+  
+    for(element in myArray){  
+println(element)  
+    }  
+println(myArray)
+    
 }
 
